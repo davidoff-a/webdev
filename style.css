@@ -389,10 +389,33 @@ body {
 	line-height: 1.2;
 	font-weight: normal;
 	color: #fff;
-	width:1600px;
+	width: 1600px;
 }
-.wrapper{
-	max-width:1060px;
-	height:100vh;
+.wrapper {
+	max-width: 1060px;
+	height: 100vh;
+	margin: 0 auto;
+}
+.header__menu {
+		background-color: black;
+		height: 95px;
+		width: 100%;
+		justify-content: center;
 
+	}
+
+.header-menu__link {
+	text-decoration: none;
+	color: #fff;
 }
+.header-menu-list {
+	list-style-type: none;
+	align-items: center;
+	display: inline-flex;
+	
+}
+.header-wrapper {
+	display: flex;
+	align-items: center;
+}
+
